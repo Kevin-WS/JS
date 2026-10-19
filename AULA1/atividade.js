@@ -8,12 +8,12 @@
 
 
 
-let nota1 = 2 * 0.6
-let nota2 = 3 * 0.4
+let nota1 = 9 * 0.6
+let nota2 = 5 * 0.4
 
 media = nota1 + nota2
 
-if (media>7) {
+if (media>=7) {
     console.log(`Sua nota foi: ${media}`);
     console.log("Você foi aprovado");
     
@@ -26,8 +26,9 @@ if (media>7) {
 let curso1 = "TI"
 let curso2 = "Administração"
 
-if (media>8) {
+if (media>=8) {
     console.log(`Você recebeu uma indicação para um curso de ${curso1}`);
 } else {
     console.log(`Você recebeu uma indicação para um curso de ${curso2}`);
 }
+media >= 7  ? "Aprovado" : "Reprovado";
