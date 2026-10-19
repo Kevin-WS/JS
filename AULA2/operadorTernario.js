@@ -24,3 +24,4 @@ let valor = 2500;
 let resposta = valor >= 2000 ? "Voa a praia" : "Vou ficar em casa";
 
 console.log(resposta);
+
